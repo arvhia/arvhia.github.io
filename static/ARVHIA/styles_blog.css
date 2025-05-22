@@ -12,6 +12,17 @@
 	/*border-left: 2px;*/
 	border: 2px solid;
 	border-color: #2a251e;
+	box-shadow: 1px 1px 5px #d1ba9761;
+}
+
+.searchInfoBar {
+	display: none;
+}
+
+@media(min-width:992px) {
+	.searchInfoBar {
+		display: flex;
+	}
 }
 
 .btnBlog {

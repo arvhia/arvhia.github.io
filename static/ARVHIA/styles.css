@@ -62,6 +62,11 @@ h1 {
 	color: #d1ba97;
 }
 
+.navbar-toggler {
+	background-color: #d1ba97;
+	color: transparent;
+}
+
 #logoImg {
 	margin-left: 0;
 }
