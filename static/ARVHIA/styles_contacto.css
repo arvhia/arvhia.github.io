@@ -1,0 +1,9 @@
+#slideContacto1 {
+	background-image: url("images/contacto/1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*font-family: 'Times New Roman', Times, serif;*/
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #d1ba97;
+}

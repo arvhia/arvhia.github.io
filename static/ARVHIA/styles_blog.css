@@ -1,0 +1,25 @@
+#slideBlog1 {
+	/*background-image: url("images/contacto/1.jpg");*/
+	/*font-family: 'Times New Roman', Times, serif;*/
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-top: 90px;
+	color: #d1ba97;
+	justify-content: center;
+	/*text-align: center;*/
+}
+
+.rowStyle>div {
+	/*border-left: 2px;*/
+	border: 2px solid;
+	border-color: #2a251e;
+}
+
+.btnBlog {
+	background-color: #d1ba97;
+	margin-bottom: 8px;
+}
+
+img {
+	/*width: 100%;*/
+	max-width: 900px;
+}
