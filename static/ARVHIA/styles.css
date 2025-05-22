@@ -48,7 +48,7 @@ body {
 }
 
 h1 {
-	font-size: 80px;
+	font-size: 20vw;
 }
 
 #slide1 {
@@ -65,6 +65,22 @@ h1 {
 .navbar-toggler {
 	background-color: #d1ba97;
 	color: transparent;
+}
+
+.imgPreview {
+	max-width: 100%;
+	height: auto;
+}
+
+@media (min-width:500px) {
+
+	.imgPreview {
+		max-width: 500px;
+	}
+
+	h1 {
+		font-size: 100px;
+	}
 }
 
 #logoImg {
