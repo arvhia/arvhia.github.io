@@ -11,7 +11,12 @@
 .nav-link {
 
 	color: #d1ba97;
-	background-color: #1e2c39;
+	background-color: #0e1f2f;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+	color: white;
 }
 
 .navbar-brand {
