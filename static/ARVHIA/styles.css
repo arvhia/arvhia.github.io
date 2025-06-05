@@ -79,6 +79,17 @@ h1 {
 	color: #d1ba97;
 }
 
+#slide2-2 {
+	background-image: url("images/slide2-2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*font-family: 'Times New Roman', Times, serif;*/
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	/*margin-top: 70px;*/
+	color: #d1ba97;
+}
+
 #slide3 {
 	background-image: url("images/slide3.jpg");
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
@@ -129,6 +140,7 @@ h1 {
 .imgPreview {
 	max-width: 100%;
 	height: auto;
+	filter: brightness(50%);
 }
 
 @media (min-width:500px) {
@@ -170,8 +182,13 @@ h1 {
 	min-height: 30vh;
 }
 
+
 .fullvh {
 	min-height: 100vh;
+}
+
+.vhSlide2-2 {
+	min-height: 130vh;
 }
 
 .padTop {
