@@ -57,6 +57,10 @@ h1 {
 	font-size: 20vw;
 }
 
+.h1Size {
+	font-size: xxx-large;
+}
+
 #slide1 {
 	background-image: url("images/holdingKeys.jpg");
 	background-repeat: no-repeat;
@@ -82,7 +86,7 @@ h1 {
 #slide2-2 {
 	background-image: url("images/slide2-2.jpg");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 70%;
 	background-size: cover;
 	/*font-family: 'Times New Roman', Times, serif;*/
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -127,6 +131,22 @@ h1 {
 	background-color: #041322;
 }
 
+.imgFooter {
+
+	width: 150px;
+}
+
+.iconFooter {
+	color: #d1ba97;
+	font-size: 2rem;
+	margin: 10px 15px;
+	/* padding-bottom: 20px; */
+}
+
+.iconsPref a {
+	text-decoration: none;
+}
+
 .textSlide {
 	text-align: left;
 	line-height: 1.5;
@@ -143,14 +163,48 @@ h1 {
 	filter: brightness(50%);
 }
 
-@media (min-width:500px) {
+
+@media (min-width:576px) {
 
 	.imgPreview {
 		max-width: 500px;
 	}
 
 	h1 {
+		font-size: 115px;
+	}
+
+	.h1Size {
+		font-size: 90px;
+	}
+
+	.slide4Header {
 		font-size: 100px;
+	}
+}
+
+h2,
+h3 {
+	font-family: Arial;
+}
+
+#topText {
+	font-size: x-large;
+}
+
+.description {
+	background-color: #012234;
+	/* border: solid 2px; */
+	border-radius: 15px;
+}
+
+@media (max-width:576px) {
+	.h1Size {
+		font-size: 17vw;
+	}
+
+	.slide4Header {
+		font-size: 15vw;
 	}
 }
 
@@ -180,6 +234,11 @@ h1 {
 
 .vhSlide3 {
 	min-height: 30vh;
+	background: rgba(0, 0, 0, 0.3);
+	background-image: url("images/arvhia060625.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 
@@ -188,11 +247,14 @@ h1 {
 }
 
 .vhSlide2-2 {
-	min-height: 130vh;
+	min-height: 100vh;
+	background: rgba(0, 0, 0, 0.3);
+
 }
 
 .padTop {
 	padding-top: 90px;
+	/* background-image: url("images/arvhia060625.png"); */
 }
 
 .centerVertically {
