@@ -1,0 +1,63 @@
+#slide1_arquitectura {
+	background-image: url("images/contacto/1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*font-family: 'Times New Roman', Times, serif;*/
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #d1ba97;
+}
+
+#slide2_arquitectura {
+	background-color: #2F1E0E;
+	min-height: 40vh;
+	/*clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);*/
+	background: linear-gradient(180deg, rgba(47, 30, 14, 1) 0%, rgba(14, 47, 47, 1) 100%);
+}
+
+#slide3_arquitectura {
+	background-color: #0E2F2F;
+	min-height: 40vh;
+	/* clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 100%); */
+	/* clip-path: polygon(0 0, 100% 0, 100% 76%, 0 90%); */
+	background: linear-gradient(360deg, rgb(14 31 47) 0%, rgba(14, 47, 47, 1) 100%);
+}
+
+#slide5_arquitectura {
+	background-image: url("images/arquitectura/1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*font-family: 'Times New Roman', Times, serif;*/
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	/*color: #d1ba97;*/
+}
+
+#bgMatch {
+	background-color: #0E2F2F;
+	background: linear-gradient(180deg, rgba(47, 30, 14, 1) 0%, rgba(14, 47, 47, 1) 100%);
+
+}
+
+.opacity_arquitectura {
+	background: rgba(0, 0, 0, 0.5);
+	min-height: 30vh;
+}
+
+.headers_arquitectura {}
+
+@media (max-width: 576px) {
+	.headers_arquitectura {
+		font-size: 12.5vw;
+	}
+}
+
+@media (min-width: 576px) {
+	.headers_arquitectura {
+		font-size: 80px;
+	}
+
+	.descripcion_arquitectura {
+		font-size: 25px;
+	}
+}
