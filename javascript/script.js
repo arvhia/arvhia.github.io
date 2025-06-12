@@ -9,5 +9,8 @@ for (let i = 0; i < document.querySelectorAll("#consignar").length; i++) {
 
 //Add number
 function addNumber() {
-    document.querySelector("#alinkNumero").href = `https://wa.me/${numeroCelular}`;
+    for (let i = 0; i < document.querySelectorAll("#alinkNumero").length; i++) {
+        document.querySelectorAll("#alinkNumero")[i].href = `https://wa.me/${numeroCelular}`;
+
+    }
 }

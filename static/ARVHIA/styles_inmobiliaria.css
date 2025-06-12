@@ -1,0 +1,91 @@
+#slide1_inmobiliaria {
+	background-image: url("images/contacto/1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*font-family: 'Times New Roman', Times, serif;*/
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #d1ba97;
+}
+
+#slide2_inmobiliaria {
+	/* background-color: #2F1E0E; */
+	min-height: 40vh;
+	/*clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);*/
+	/* background: linear-gradient(180deg, rgba(47, 30, 14, 1) 0%, rgba(14, 47, 47, 1) 100%); */
+	background-image: url(images/inmobiliaria/2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/* font-family: 'Times New Roman', Times, serif; */
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	/* color: #d1ba97; */
+}
+
+#slide3_inmobiliaria {
+	background-color: #4299ff;
+	min-height: 40vh;
+	/* clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 100%); */
+	/* clip-path: polygon(0 0, 100% 0, 100% 76%, 0 90%); */
+	/* background: linear-gradient(360deg, rgb(14 31 47) 0%, rgba(14, 47, 47, 1) 100%); */
+	clip-path: polygon(5% 0, 95% 0, 100% 100%, 0% 100%);
+}
+
+#slide4_inmobiliaria {
+	background-color: #FFA842;
+	min-height: 40vh;
+	/* clip-path: polygon(0 0, 100% 0, 100% 76%, 0 90%); */
+	/* background: linear-gradient(360deg, rgb(14 31 47) 0%, rgba(14, 47, 47, 1) 100%); */
+	/* clip-path: polygon(0 0, 100% 0, 98% 100%, 2% 100%); */
+}
+
+#slide5_inmobiliaria {
+	background-image: url("images/arquitectura/1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*font-family: 'Times New Roman', Times, serif;*/
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	/*color: #d1ba97;*/
+}
+
+#bgMatch {
+	background-color: #0E2F2F;
+	background: linear-gradient(180deg, rgba(47, 30, 14, 1) 0%, rgba(14, 47, 47, 1) 100%);
+
+}
+
+.h2Size {
+	font-size: 5vw;
+}
+
+.opacity_arquitectura {
+	background: rgba(0, 0, 0, 0.5);
+	min-height: 30vh;
+}
+
+.headers_arquitectura {}
+
+.links_arquitectura a {
+	text-decoration: blink;
+}
+
+@media (max-width: 576px) {
+	.headers_arquitectura {
+		font-size: 12.5vw;
+	}
+}
+
+@media (min-width: 576px) {
+	.headers_arquitectura {
+		font-size: 80px;
+	}
+
+	.descripcion_arquitectura {
+		font-size: 25px;
+	}
+
+	.h2Size {
+		font-size: 40px;
+	}
+}
