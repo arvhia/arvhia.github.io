@@ -50,7 +50,7 @@ li {
 body {
 	background-color: #0e1f2f;
 	color: white;
-	font-family: Arial, sans-serif;
+	font-family: sans-serif, arial;
 }
 
 h1 {
@@ -67,7 +67,7 @@ h1 {
 	background-position: center;
 	background-size: cover;
 	/*font-family: 'Times New Roman', Times, serif;*/
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
 	margin-top: 70px;
 	color: #d1ba97;
 }
@@ -78,7 +78,7 @@ h1 {
 	background-position: center;
 	background-size: cover;
 	/*font-family: 'Times New Roman', Times, serif;*/
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
 	/*margin-top: 70px;*/
 	color: #d1ba97;
 }
@@ -89,7 +89,7 @@ h1 {
 	background-position: 70%;
 	background-size: cover;
 	/*font-family: 'Times New Roman', Times, serif;*/
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
 	/*margin-top: 70px;*/
 	color: #d1ba97;
 }
@@ -101,7 +101,7 @@ h1 {
 	background-position: center;
 	background-size: cover;
 	/*font-family: 'Times New Roman', Times, serif;*/
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
 	/*margin-top: 70px;*/
 	color: #d1ba97;
 }

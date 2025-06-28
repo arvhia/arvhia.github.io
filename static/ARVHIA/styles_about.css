@@ -1,9 +1,72 @@
-#slide4 {
+#slide1_about{
+	background-image: radial-gradient(circle at center, #845757 0%, #1a1a1a 100%);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*font-family: 'Times New Roman', Times, serif;*/
+	font-family: 'Franklin Gothic Medium',  sans-serif,'Arial', Arial;
+	color: #d1ba97;
+	/* min-height:100vh; */
+}
+
+#slide2_about{
 	background-image: url("images/about/1.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	/*font-family: 'Times New Roman', Times, serif;*/
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Franklin Gothic Medium',  sans-serif,'Arial', Arial;
 	color: #d1ba97;
+	/* min-height:100vh; */
+}
+#slide3_about{
+	background-image: url("images/about/3.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*font-family: 'Times New Roman', Times, serif;*/
+	font-family: 'Franklin Gothic Medium',  sans-serif,'Arial', Arial;
+	color: #d1ba97;
+	/* min-height:100vh; */
+}
+#slide4_about{
+	background-image: url("images/about/4.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*font-family: 'Times New Roman', Times, serif;*/
+	font-family: 'Franklin Gothic Medium',  sans-serif,'Arial', Arial;
+	color: #d1ba97;
+	/* min-height:100vh; */
+}
+#slide5_about{
+	background-image: url("images/about/5.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*font-family: 'Times New Roman', Times, serif;*/
+	font-family: 'Franklin Gothic Medium',  sans-serif,'Arial', Arial;
+	color: #d1ba97;
+	/* min-height:100vh; */
+}
+#slide6_about{
+	background-image: url("images/about/6.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*font-family: 'Times New Roman', Times, serif;*/
+	font-family: 'Franklin Gothic Medium',  sans-serif,'Arial', Arial;
+	color: #d1ba97;
+	/* min-height:100vh; */
+}
+.transparent_block {
+	border-radius: 25px;
+	font-style: inherit;
+	background-color: rgba(0, 0, 0, 0.43) !important;
+}
+
+.opacity50{
+	/*creado para disminuir brillo*/
+	min-height: 50vh;
+	background: rgba(0, 0, 0, 0.7);
 }
